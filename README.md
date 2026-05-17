@@ -123,7 +123,7 @@ Métodos estáticos de utilidad: `validarDoc()` para DNI/NIF y `validarCorreo()`
 
 > El diagrama muestra la herencia y las relaciones entre las clases del proyecto.
 
-![Diagrama de clases](BancoNet/img/reto.png)
+![Diagrama de clases](img/reto.png)
 
 
 
