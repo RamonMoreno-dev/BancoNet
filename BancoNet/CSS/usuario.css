@@ -1,0 +1,200 @@
+/* Menú lateral*/
+.menu {
+    -fx-background-color: #0077b6;
+}
+
+.menu-titulo {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+.menu-btn {
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-font-size: 13px;
+    -fx-padding: 12 15;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-max-width: infinity;
+    -fx-effect: dropshadow(gaussian, rgba(48, 48, 48, 0.952), 10, 0.4, 0, 3);
+
+}
+
+.menu-btn-salir {
+    -fx-background-color: #7f1d1d;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 12 15;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-max-width: infinity;
+}
+
+/* Contenido*/
+.contenido {
+    -fx-background-color: #f4f6f8;
+}
+
+/* Saldo */
+.titulo-saldo {
+    -fx-font-size: 16px;
+    -fx-text-fill: #555555;
+}
+
+.saldo-label {
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0077b6;
+}
+
+/*Movimientos  */
+.mov-fila {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+}
+
+.mov-ingreso {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e7d32;
+}
+
+.mov-gasto {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #c62828;
+}
+
+.mov-concepto {
+    -fx-font-size: 13px;
+    -fx-text-fill: #333333;
+}
+
+.mov-fecha {
+    -fx-font-size: 12px;
+    -fx-text-fill: #888888;
+}
+
+/* Títulos y labels*/
+.titulo {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.subtitulo {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.label-seccion {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0077b6;
+}
+
+.msg-error {
+    -fx-text-fill: #c62828;
+    -fx-font-size: 12px;
+}
+
+/* Botones de acción */
+.btn-verde {
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+    -fx-padding: 8 20;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.btn-rojo {
+    -fx-background-color: #c62828;
+    -fx-text-fill: white;
+    -fx-padding: 8 20;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.btn-bizum {
+    -fx-background-color: #00AEEF;
+    -fx-text-fill: white;
+    -fx-padding: 8 20;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(48, 48, 48, 0.952), 10, 0.4, 0, 3);
+}
+
+.grafica {
+    -fx-padding: 100 10 0 10;
+}
+
+.btn-paypal {
+    -fx-background-color: #003087;
+    -fx-text-fill: white;
+    -fx-padding: 8 20;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(48, 48, 48, 0.952), 10, 0.4, 0, 3);
+}
+
+.tarjeta {
+    -fx-background-radius: 16;
+}
+
+.tarjeta-azul {
+    -fx-background-color: #1565C0;
+}
+
+.anyos {
+    -fx-background-color: rgba(0, 0, 0, 0.897);
+    -fx-cursor: hand;
+
+}
+
+.anyos .list-cell {
+    -fx-text-fill: white;
+}
+
+.anyos .list-view {
+    -fx-text-fill: black;
+}
+
+.tarjeta-gris {
+    -fx-background-color: #37474F;
+}
+
+.tarjeta-nombre {
+    -fx-text-fill: rgba(255, 255, 255, 0.8);
+    -fx-font-size: 13px;
+}
+
+.tarjeta-numero {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.tarjeta-tipo {
+    -fx-text-fill: rgba(255, 255, 255, 0.7);
+    -fx-font-size: 12px;
+}
+
+.separador {
+    -fx-background-color: #cccccc;
+}
+
+.scroll-transparente {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.btn-azul {
+    -fx-background-color: #0077b6;
+    -fx-text-fill: white;
+    -fx-padding: 8 20;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(48, 48, 48, 0.952), 10, 0.4, 0, 3);
+}

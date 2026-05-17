@@ -1,0 +1,36 @@
+.boton_sesion {
+    -fx-background-radius: 8;
+    -fx-background-color: #07f;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.952), 20, 0.4, 0, 3);
+
+}
+
+.label-sesion {
+    -fx-text-fill: white;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-padding: 15;
+}
+
+.grid {
+    -fx-border-color: rgb(148, 153, 150);
+    -fx-border-radius: 6;
+    -fx-border-width: 5;
+    -fx-alignment: center;
+    -fx-background-color: rgb(29, 27, 27);
+}
+
+.titulo {
+    -fx-text-fill: white;
+    -fx-font-size: 32;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #07f, 20, 0.4, 0, 3);
+}
+
+.lbl_error {
+    -fx-text-fill: red;
+
+}

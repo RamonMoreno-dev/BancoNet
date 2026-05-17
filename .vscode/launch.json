@@ -1,0 +1,73 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "Conectar",
+        "request": "launch",
+        "mainClass": "Conectar",
+        "projectName": "javafx_f7281458"
+    },
+    {
+        "type": "java",
+        "name": "GridPaneApplication",
+        "request": "launch",
+        "mainClass": "GridPaneApplication",
+        "projectName": "javafx_f7281458"
+    },
+    {
+        "type": "java",
+        "name": "Main",
+        "request": "launch",
+        "mainClass": "Main",
+        "projectName": "javafx_f7281458"
+    },
+    {
+        "type": "java",
+        "name": "Banco",
+        "request": "launch",
+        "mainClass": "Banco",
+        "projectName": "javafx_f7281458",
+        "vmArgs": "--module-path \"c:\\Users\\Ramon\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26\\lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+        "type": "java",
+        "name": "Flow",
+        "request": "launch",
+        "mainClass": "Flow",
+        "projectName": "javafx_f7281458",
+        "vmArgs": "--module-path \"c:\\Users\\Ramon\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26\\lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+        "type": "java",
+        "name": "FlowPaneApplication",
+        "request": "launch",
+        "mainClass": "FlowPaneApplication",
+        "projectName": "javafx_f7281458"
+    },
+    {
+        "type": "java",
+        "name": "Grid",
+        "request": "launch",
+        "mainClass": "Grid",
+        "projectName": "javafx_f7281458",
+        "vmArgs": "--module-path \"c:\\Users\\Ramon\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26\\lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+        "type": "java",
+        "name": "prueba",
+        "request": "launch",
+        "mainClass": "prueba",
+        "projectName": "javafx_f7281458",
+        "vmArgs": "--module-path \"c:\\Users\\Ramon\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26\\lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+        "type": "java",
+        "name": "StackPaneApplication",
+        "request": "launch",
+        "mainClass": "StackPaneApplication",
+        "projectName": "javafx_f7281458",
+        "vmArgs": "--module-path \"c:\\Users\\Ramon\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26\\lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+]
+}   
