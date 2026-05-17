@@ -123,7 +123,7 @@ Métodos estáticos de utilidad: `validarDoc()` para DNI/NIF y `validarCorreo()`
 
 > El diagrama muestra la herencia y las relaciones entre las clases del proyecto.
 
-![Diagrama de clases](BancoNet\img\reto.png)
+![Diagrama de clases](BancoNet/img/reto.png)
 
 
 
@@ -133,7 +133,7 @@ Métodos estáticos de utilidad: `validarDoc()` para DNI/NIF y `validarCorreo()`
 
 > Estructura de la base de datos MySQL del proyecto.
 
-![Diagrama Entidad-Relación](BancoNet\img\sql.png)
+![Diagrama Entidad-Relación](BancoNet/img/sql.png)
 
 ```
 usuario (id_usuario, nombre, dni, num_tlf, pais)
@@ -165,7 +165,7 @@ usuario (id_usuario, nombre, dni, num_tlf, pais)
 
 Al abrir la aplicación se muestra la pantalla de login.
 
-![Login](BancoNet\img\login.png)
+![Login](BancoNet/img/login.png)
 
 - Introduce tu **correo** y **contraseña**
 - Pulsa **Iniciar sesión**
@@ -177,7 +177,7 @@ Al abrir la aplicación se muestra la pantalla de login.
 
 ### 2. Panel de usuario — Saldo y movimientos
 
-![Saldo](BancoNet\img\saldo.png)
+![Saldo](BancoNet/img/saldo.png)
 
 - Visualiza el **saldo actual** de tu cuenta
 - Consulta los **últimos movimientos** con fecha, concepto e importe
@@ -187,7 +187,7 @@ Al abrir la aplicación se muestra la pantalla de login.
 
 ### 3. Transferir dinero
 
-![Transferencia](BancoNet\img\transferencia.png)
+![Transferencia](BancoNet/img/transferencia.png)
 
 Desde el menú lateral, pulsa **Transferir dinero**. Tienes tres opciones:
 
@@ -203,7 +203,7 @@ Introduce la cantidad y pulsa el botón correspondiente. El sistema comprueba qu
 
 ### 4. Tarjetas
 
-![Tarjetas](BancoNet\img\tarjetas.png)
+![Tarjetas](BancoNet/img/tarjetas.png)
 
 - Visualiza las tarjetas asociadas a tu cuenta
 - Las **tarjetas de crédito** se muestran en azul
@@ -214,7 +214,7 @@ Introduce la cantidad y pulsa el botón correspondiente. El sistema comprueba qu
 
 ### 5. Gráfica de ingresos y gastos
 
-![Gráfica](BancoNet\img\grafica.png)
+![Gráfica](BancoNet/img/grafica.png)
 
 - Selecciona el **año** en el desplegable
 - La gráfica muestra los **ingresos** (línea verde) y los **gastos** (línea roja) mes a mes
@@ -223,7 +223,7 @@ Introduce la cantidad y pulsa el botón correspondiente. El sistema comprueba qu
 
 ### 6. Panel de administrador — Gestión de usuarios
 
-![Admin Usuarios](BancoNet\img\usuarios.png)
+![Admin Usuarios](BancoNet/img/usuarios.png)
 
 Accesible si inicias sesión con una cuenta de administrador.
 
@@ -238,7 +238,7 @@ Accesible si inicias sesión con una cuenta de administrador.
 
 ### 7. Panel de administrador — Movimientos
 
-![Admin Movimientos](BancoNet\img\movs.png)
+![Admin Movimientos](BancoNet/img/movs.png)
 
 - Consulta **todos los movimientos** de todos los usuarios
 - Filtra por DNI para ver los movimientos de un usuario concreto
